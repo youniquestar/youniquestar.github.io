@@ -1,37 +1,49 @@
-<!-- _includes/nav.html -->
+<!-- _includes/navbar.html -->
 <nav>
     <div class="left">
-        <a href="/">{{site.name}}</a>
+        <a href="{{ '/' | relative_url }}">{{ site.name }}</a>
     </div>
 
     <!-- Desktop Menu -->
     <div class="right desktop-nav">
-        <a href="/">
+        <a href="{{ '/' | relative_url }}">
             <span>Home</span>
         </a>
-        <a href="/projects/">
+        <a href="{{ '/projects/' | relative_url }}">
             <span>Projects</span>
         </a>
-        <a href="{{site.resume-url}}" target="_blank" rel="noopener noreferrer">
-            <span>Resume</span>
+        <a href="{{ '/#skills' | relative_url }}">
+            <span>Skills</span>
+        </a>
+        <a href="{{ '/#contact' | relative_url }}">
+            <span>Contact</span>
+        </a>
+        <a href="{{ site.resume-url }}" target="_blank" rel="noopener noreferrer" class="resume-btn">
+            <span>Resume <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 4px;"></i></span>
         </a>
     </div>
 
     <!-- Mobile Menu Button -->
     <button class="menu-toggle" aria-label="Toggle menu">
-        <i class="fa fa-bars fa-2x"></i>
+        <span class="hamburger"></span>
     </button>
 
     <!-- Mobile Menu -->
     <div class="mobile-nav">
-        <a href="/">
+        <a href="{{ '/' | relative_url }}">
             <span>Home</span>
         </a>
-        <a href="/projects/">
+        <a href="{{ '/projects/' | relative_url }}">
             <span>Projects</span>
         </a>
-        <a href="{{site.resume-url}}" target="_blank" rel="noopener noreferrer">
-            <span>Resume</span>
+        <a href="{{ '/#skills' | relative_url }}">
+            <span>Skills</span>
+        </a>
+        <a href="{{ '/#contact' | relative_url }}">
+            <span>Contact</span>
+        </a>
+        <a href="{{ site.resume-url }}" target="_blank" rel="noopener noreferrer">
+            <span>Resume ↗</span>
         </a>
     </div>
 </nav>

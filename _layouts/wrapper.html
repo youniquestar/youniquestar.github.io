@@ -3,32 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#121417">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
 
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/syntax.css' | relative_url }}">
 
-    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/script.js' | relative_url }}" defer></script>
 
-    
-    <title>{{ site.title }}</title>
-    
-
+    <title>{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.title }}{% endif %}</title>
 </head>
 <body>
-    <!-- NAVBAR -->
-     {% include navbar.html%}
+    {% include navbar.html %}
 
-     <div class="page">{{content}}</div>
+    <main class="page">
+        {{ content }}
+    </main>
 
-     
+    {% include footer.html %}
 </body>
-
-    {% include footer.html%}
 </html>

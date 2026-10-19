@@ -1,20 +1,20 @@
 <!-- SECTION 4: Contact-->
-<section id="contact" class= "contact-section">
-    <h2>Contact</h2>
+<section id="contact" class="contact-section">
+    <h2>Get In Touch</h2>
+    <p class="contact-intro">Have a robotics challenge, embedded systems project, or an engineering role you'd like to discuss? Send me a message or connect directly on <a href="https://www.linkedin.com/in/{{ site.external-links.linkedin }}/" target="_blank" rel="noopener noreferrer">LinkedIn</a> / <a href="https://github.com/{{ site.external-links.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
 
     <div class="group">
-      
-        <form action="https://formspree.io/f/{{site.formspree-key}}" method="POST">
-            <label for="name">Name</label>
-            <input type="text" id="name">
+        <form action="{% if site.formspree-key contains 'http' %}{{ site.formspree-key }}{% else %}https://formspree.io/f/{{ site.formspree-key }}{% endif %}" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Ada Lovelace" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="ada@example.com" required>
 
             <label for="message">Message</label>
-            <textarea id="message" cols = "30" rows="10" name="message"></textarea>
+            <textarea id="message" cols="30" rows="6" name="message" placeholder="Hi Jeremiah, I'd like to collaborate on..." required></textarea>
 
-            <button type="submit">Send Message</button>
+            <button type="submit">Send Message <i class="fa-solid fa-paper-plane" style="margin-left: 8px;"></i></button>
         </form>
     </div>
-  </section>
+</section>

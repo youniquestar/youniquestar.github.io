@@ -1,32 +1,57 @@
 ---
 permalink: /404.html
 layout: wrapper
+title: "404 - Page Not Found"
 ---
 
 <style type="text/css" media="screen">
-  .container {
-    min-height: 80vh;
+  .not-found-container {
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
-}
+    padding: 40px 20px;
+  }
 
-.container h1 {
-    font-size: 6rem;
-    margin-bottom: 1rem;
-}
+  .not-found-container h1 {
+    font-size: clamp(4rem, 8vw, 7rem);
+    color: var(--highlight-color);
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    line-height: 1;
+  }
 
-.container p {
-    font-size: 1.25rem;
- }
+  .not-found-container p {
+    font-size: 1.15rem;
+    color: #94a3b8;
+    margin-bottom: 1.5rem;
+  }
+
+  .not-found-container a.home-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+    color: #0b0f14;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(66, 165, 245, 0.35);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .not-found-container a.home-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(66, 165, 245, 0.5);
+  }
 </style>
 
-<div class="container">
+<div class="not-found-container">
   <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p><strong>Page not found.</strong> The link may have moved or doesn't exist.</p>
+  <a href="{{ '/' | relative_url }}" class="home-btn">
+    <i class="fa-solid fa-house"></i> Return to Homepage
+  </a>
 </div>

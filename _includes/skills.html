@@ -1,23 +1,17 @@
 <section id="skills" class="skills-section">
-    <h2>Skills</h2>
+    <h2>Technical Skills & Expertise</h2>
+    <p class="skills-intro">A multidisciplinary engineering toolkit spanning hardware design, bare-metal embedded firmware, robotic kinematics, and production AI.</p>
         
-    <ul class="skill-categories">
-        {% for skill in site.skills %}
-          <li>
-            <div class="skills-card">
-              <span class="category-label">{{ skill.category}}</span>
-            
-              <ul class="skills-list">
-                {% for skill in skill.tools %}
-                  <li class="skill">
-                    {{ skill }}
-                  </li>
+    <div class="skill-categories-grid">
+        {% for cat in site.skills %}
+        <div class="skills-card">
+            <h3 class="category-label">{{ cat.category }}</h3>
+            <ul class="skills-list">
+                {% for tool in cat.tools %}
+                <li class="skill">{{ tool }}</li>
                 {% endfor %}
-                </ul>
-            </div>
-            
-          </li> 
+            </ul>
+        </div> 
         {% endfor %}
-      </ul>
-
+    </div>
 </section>

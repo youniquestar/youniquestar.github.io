@@ -1,19 +1,25 @@
 <footer>
     <div class="footer-content">
         <div class="links">
-            <a href="/">
+            <a href="{{ '/' | relative_url }}">
                 <span>Home</span>
             </a>
-            <a href="/projects/">
+            <a href="{{ '/projects/' | relative_url }}">
                 <span>Projects</span>
             </a>
-            <a href={{site.resume-url}} target="_blank" rel="noopener noreferrer">
+            <a href="{{ site.resume-url }}" target="_blank" rel="noopener noreferrer">
                 <span>Resume</span>
+            </a>
+            <a href="https://github.com/{{ site.external-links.github }}" target="_blank" rel="noopener noreferrer">
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/{{ site.external-links.linkedin }}/" target="_blank" rel="noopener noreferrer">
+                <span>LinkedIn</span>
             </a>
         </div>
     </div>
     <div class="license">
-        <span>For any question or suggestion for the portfolio template or projects, reach out <a class="help" href="mailto:admin@lowinertia.com"> Here</a> </span>
-        <p>Free-To-Engineer portfolio template © 2025 by lowinertia.com is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY 4.0</a></p>
+        <p>© {{ 'now' | date: "%Y" }} {{ site.name }} · Robotics, Embedded Systems & AI Engineering</p>
+        <p style="opacity: 0.65; font-size: 11px; margin-top: 6px;">Portfolio template based on Free-To-Engineer © lowinertia.com (<a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>)</p>
     </div>
 </footer>

@@ -7,136 +7,114 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
-
+title: Jeremiah Alao — Robotics · AI · Embedded Systems
 
 
 # Hero Section
-name: John Doe
-headline: headline message
-description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+name: Jeremiah Alao
+headline: Robotics & AI Engineer
+description: >-
+  I design and build intelligent machines — from bare-metal embedded firmware on
+  Arduino and ESP32, to ROS 2 robotic manipulators and production-grade machine
+  learning backends. With 37+ public repositories spanning autonomous mobile
+  robots, computer-vision pipelines, predictive-maintenance engines, and IoT
+  systems, I turn complex engineering problems into working hardware and
+  software. Currently deepening my craft in Robotics Modelling & Control and AI
+  Backend Engineering.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
 
 
 # Link your resume
-# You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
+# You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive
+resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
 
 
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
-  medium:            # https://medium.com/@{your url slug} 
-  x-twitter:   # https://x.com/{your url slug} 
-  threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
-  bluesky:           # https://bsky.app/profile/{your url slug} 
-  
+  linkedin: jeremiah-alao    # https://www.linkedin.com/in/{your url slug}
+  github: youniquestar    # https://github.com/{your url slug}
+  stackoverflow:      # https://stackoverflow.com/users/{your url slug}
+  medium:            # https://medium.com/@{your url slug}
+  x-twitter:   # https://x.com/{your url slug}
+  threads:            # https://threads.net/@{your url slug}
+  instragram:       # https://instagram.com/{your url slug}
+  youtube:           # https://youtube.com/@{your url slug}
+  discord:            # https://discord.com/users/{your url slug}
+  bluesky:           # https://bsky.app/profile/{your url slug}
 
-# Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
+
+# Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise.
 skills:
-  - category: 3D Modeling
+  - category: Programming Languages
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
+    - Python
+    - C++
+    - SQL
+    - Shell / Bash
+  - category: Robotics & Control
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+    - ROS 2 (Humble)
+    - Forward & Inverse Kinematics
+    - Differential Drive Navigation
+    - Ultrasonic / IR Sensor Fusion
+    - PID & Motion Control
+    - URDF / Xacro Modelling
+    - Gazebo Simulation
+  - category: AI & Machine Learning
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
+    - Scikit-learn
+    - Pandas / NumPy
+    - NLP & Regex Engines
+    - Predictive Maintenance Pipelines
+    - Conversational AI / Chatbots
+    - Data Preprocessing & Feature Engineering
+  - category: Embedded Systems & IoT
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
+    - Arduino (Nano, Uno, Mega)
+    - ESP32 (ESP-NOW, FreeRTOS)
+    - SPI / I2C / UART Protocols
+    - PWM Servo & Motor Control
+    - RFID (MFRC522)
+    - Relay & Actuator Interfacing
+    - Sensor Integration (DHT11, HC-SR04, IR, LDR, Soil Moisture)
+  - category: Backend & Web Development
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - Django
+    - FastAPI
+    - REST API Design
+    - PostgreSQL
+    - Git & GitHub
+  - category: CAD & Prototyping
+    tools:
+    - Autodesk Fusion 360
+    - FreeCAD
+    - 3D Printing (FDM)
+    - Breadboarding & Circuit Design
+  - category: Tools & Platforms
+    tools:
+    - Linux / Ubuntu
+    - VS Code
+    - Arduino IDE / PlatformIO
+    - PyCharm
+    - Docker (basics)
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
+formspree-key:   https://formspree.io/f/xcontact
 
 
 
-# Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
-colors: # this is the basic theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-
-# A few examples. 
-basic theme:
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-  
-  mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
-  
-lemon theme:
-  text: "#2d2926"
-  border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
-  background: "#fffdf5"
-  light_background: "#fff9e6"
-  
-  pink theme:
-  text: "#2d2d2d"
-  border: "#f8e2e2"
-  link: "#ff8fa3"
-  highlight: "#ff4d6d"
-  background: "#fff8f8"
-  light_background: "#fff5f6"
-
-
-
-
+# Active theme
+colors:
+  text: "#e0e0e0"
+  border: "#2a2d35"
+  link: "#64b5f6"
+  highlight: "#42a5f5"
+  background: "#121417"
+  light_background: "#1a1d23"
 
 
 #########################################################################################################
