@@ -14,7 +14,7 @@ Hosted with GitHub Pages at [youniquestar.github.io](https://youniquestar.github
 
 | Order | Project | Focus Area | Technologies | GitHub |
 |---|---|---|---|---|
-| **01** | [**Astari Selah — 5-DOF Robotic Arm**](_projects/astari-selah/index.md) | Robotics & Kinematics | ROS 2 Humble, ESP32, FreeRTOS, FreeCAD, URDF/Xacro, Gazebo | [youniquestar/astari-selah](https://github.com/youniquestar/astari-selah) |
+| **01** | [**Astari Selah — 5-DOF Robotic Arm**](_projects/astari-selah/index.md) | Robotics & Kinematics | ROS 2 Jazzy, ESP32, FreeRTOS, FreeCAD, URDF/Xacro, Gazebo | [youniquestar/astari-selah](https://github.com/youniquestar/astari-selah) |
 | **02** | [**Pulse AI — Predictive Maintenance Engine**](_projects/pulse-ai/index.md) | Machine Learning & Telemetry | Python, Scikit-learn, FastAPI, Pandas, Anomaly Detection | [youniquestar/pulse-ai](https://github.com/youniquestar/pulse-ai) |
 | **03** | [**AI Health Partner — Clinical Triage**](_projects/ai-health-partner/index.md) | Conversational AI & NLP | Python, State Machine Architecture, Clinical NLP, REST API | [youniquestar/ai_health_partner](https://github.com/youniquestar/ai_health_partner) |
 | **04** | [**ESP32 Wireless Robotics Controller**](_projects/esp32-wireless-controller/index.md) | Embedded Wireless Systems | ESP32, ESP-NOW (&lt;5ms latency), C++, FreeRTOS, PWM | [youniquestar/esp32-wireless-robotics-controller](https://github.com/youniquestar/esp32-wireless-robotics-controller) |
@@ -28,7 +28,7 @@ Hosted with GitHub Pages at [youniquestar.github.io](https://youniquestar.github
 
 ## 🛠️ Technical Stack & Skills
 
-- **Robotics & Simulation**: ROS 2 Humble, Forward & Inverse Kinematics (DH parameters), URDF / Xacro, Gazebo, RViz2
+- **Robotics & Simulation**: ROS 2 Jazzy, Forward & Inverse Kinematics (DH parameters), URDF / Xacro, Gazebo, RViz2
 - **Embedded & Microcontrollers**: ESP32 (ESP-NOW, FreeRTOS), Arduino (Uno, Nano, Mega), SPI, I2C, UART, PWM
 - **AI & Machine Learning**: Python, Scikit-learn, NumPy, Pandas, FastAPI, Anomaly Detection, State Machines
 - **CAD & Prototyping**: Autodesk Fusion 360, FreeCAD PartDesign, 3D Printing (FDM), Rapid Breadboarding

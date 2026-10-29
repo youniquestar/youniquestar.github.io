@@ -26,9 +26,9 @@ description: >-
 profile_image: ./assets/images/profile-image/avatar.jpeg
 
 
-# Link your resume
+# Link your resume / academic CV
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
+resume-url: https://youniquestar.github.io/assets/resume/Jeremiah_Alao_Academic_CV.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
@@ -56,7 +56,7 @@ skills:
     - Shell / Bash
   - category: Robotics & Control
     tools:
-    - ROS 2 (Humble)
+    - ROS 2 (Jazzy)
     - Forward & Inverse Kinematics
     - Differential Drive Navigation
     - Ultrasonic / IR Sensor Fusion

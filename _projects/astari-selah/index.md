@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Astari Selah — 5-DOF Robotic Manipulator"
-description: An open-source, production-grade 5-DOF articulated robotic arm uniting ESP32 bare-metal C++ firmware (FreeRTOS), ROS 2 Humble kinematics, and modular FreeCAD parametric solid assemblies. A full-stack robotics project from firmware to simulation.
+description: An open-source, production-grade 5-DOF articulated robotic arm uniting ESP32 bare-metal C++ firmware (FreeRTOS), ROS 2 Jazzy kinematics, and modular FreeCAD parametric solid assemblies. A full-stack robotics project from firmware to simulation.
 skills:
-  - ROS 2 Humble
+  - ROS 2 Jazzy
   - ESP32 / FreeRTOS
   - C++
   - Python
@@ -30,7 +30,7 @@ The project demonstrates end-to-end robotics engineering: from parametric CAD mo
 | Layer | Technology | Responsibility |
 |-------|-----------|----------------|
 | **Firmware** | ESP32 + FreeRTOS (C++) | Real-time joint servo control, SPI/I2C sensor reads |
-| **Middleware** | ROS 2 Humble | Joint state publishing, trajectory planning, TF tree |
+| **Middleware** | ROS 2 Jazzy | Joint state publishing, trajectory planning, TF tree |
 | **Kinematics** | Custom Python | DH-parameter FK/IK solvers, Jacobian computation |
 | **Simulation** | Gazebo + RViz2 | Physics-based validation, visualization |
 | **CAD** | FreeCAD PartDesign | Parametric link/joint assemblies, STL export |
