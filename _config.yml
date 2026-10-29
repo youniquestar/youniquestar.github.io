@@ -15,7 +15,7 @@ name: Jeremiah Alao
 headline: Robotics & AI Engineer
 description: >-
   I design and build intelligent machines — from bare-metal embedded firmware on
-  Arduino and ESP32, to ROS 2 robotic manipulators and production-grade machine
+  Arduino and ESP32, to ROS2 robotic manipulators and production-grade machine
   learning backends. With 37+ public repositories spanning autonomous mobile
   robots, computer-vision pipelines, predictive-maintenance engines, and IoT
   systems, I turn complex engineering problems into working hardware and
@@ -56,7 +56,7 @@ skills:
     - Shell / Bash
   - category: Robotics & Control
     tools:
-    - ROS 2 (Jazzy)
+    - ROS2 Jazzy
     - Forward & Inverse Kinematics
     - Differential Drive Navigation
     - Ultrasonic / IR Sensor Fusion
