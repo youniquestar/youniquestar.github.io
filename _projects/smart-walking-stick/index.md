@@ -52,4 +52,4 @@ This project addresses a real accessibility need. Over 2.2 billion people worldw
 
 ## Source Code
 
-🔗 [View on GitHub](https://github.com/youniquestar/arduino-smart-walking-stick)
+🔗 [View on GitHub: youniquestar/smart-walking-stick](https://github.com/youniquestar/smart-walking-stick)

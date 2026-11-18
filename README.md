@@ -18,11 +18,12 @@ Hosted with GitHub Pages at [youniquestar.github.io](https://youniquestar.github
 | **02** | [**Pulse AI — Predictive Maintenance Engine**](_projects/pulse-ai/index.md) | Machine Learning & Telemetry | Python, Scikit-learn, FastAPI, Pandas, Anomaly Detection | [youniquestar/pulse-ai](https://github.com/youniquestar/pulse-ai) |
 | **03** | [**AI Health Partner — Clinical Triage**](_projects/ai-health-partner/index.md) | Conversational AI & NLP | Python, State Machine Architecture, Clinical NLP, REST API | [youniquestar/ai_health_partner](https://github.com/youniquestar/ai_health_partner) |
 | **04** | [**ESP32 Wireless Robotics Controller**](_projects/esp32-wireless-controller/index.md) | Embedded Wireless Systems | ESP32, ESP-NOW (&lt;5ms latency), C++, FreeRTOS, PWM | [youniquestar/esp32-wireless-robotics-controller](https://github.com/youniquestar/esp32-wireless-robotics-controller) |
-| **05** | [**Autonomous Human-Following Robot**](_projects/human-following-robot/index.md) | Autonomous Mobile Robots | Arduino, Ultrasonic HC-SR04, Dual IR Tracking, L298N | [youniquestar/arduino-human-following-robot](https://github.com/youniquestar/arduino-human-following-robot) |
-| **06** | [**Smart Irrigation System**](_projects/smart-irrigation/index.md) | IoT & Microclimate Sensing | Arduino, Soil Moisture, DHT11, Relays, Swept Servo | [youniquestar/arduino-smart-irrigation-system](https://github.com/youniquestar/arduino-smart-irrigation-system) |
-| **07** | [**RFID Barrier Gate Access Control**](_projects/rfid-barrier-gate/index.md) | Physical Security & Hardware | Arduino Nano, MFRC522 RFID, SPI, MG90S Servo | [youniquestar/arduino-rfid-barrier-gate](https://github.com/youniquestar/arduino-rfid-barrier-gate) |
-| **08** | [**Smart Assistive Walking Stick**](_projects/smart-walking-stick/index.md) | Assistive Tech & Haptics | Arduino, Ultrasonic Ranging, Dual-Tone Audio, Haptic Motor | [youniquestar/arduino-smart-walking-stick](https://github.com/youniquestar/arduino-smart-walking-stick) |
+| **05** | [**Autonomous Human-Following Robot**](_projects/human-following-robot/index.md) | Autonomous Mobile Robots | Arduino, Ultrasonic HC-SR04, Dual IR Tracking, L298N | [youniquestar/human-following-robot](https://github.com/youniquestar/human-following-robot) |
+| **06** | [**IoT-Based Smart Irrigation System**](_projects/smart-irrigation/index.md) | IoT & Microclimate Sensing | NodeMCU ESP8266, Blynk IoT, Soil Moisture, Relay, Servo | [youniquestar/IoT-Based-Smart-Irrigation-System](https://github.com/youniquestar/IoT-Based-Smart-Irrigation-System) |
+| **07** | [**RFID Barrier Gate Access Control**](_projects/rfid-barrier-gate/index.md) | Physical Security & Hardware | Arduino Nano, MFRC522 RFID, 12V Worm Gear Motor, BTS7960 | [youniquestar/rfid-barrier-gate](https://github.com/youniquestar/rfid-barrier-gate) |
+| **08** | [**Smart Assistive Walking Stick**](_projects/smart-walking-stick/index.md) | Assistive Tech & Haptics | Arduino, Ultrasonic Ranging, Dual-Tone Audio, Haptic Motor | [youniquestar/smart-walking-stick](https://github.com/youniquestar/smart-walking-stick) |
 | **09** | [**LASUSTECH FAQ Chatbot**](_projects/school-faq-chatbot/index.md) | NLP & Pattern Matching | Python, Regex Pattern Matching, Academic Data Simulator | [youniquestar/school_faq_chatbot](https://github.com/youniquestar/school_faq_chatbot) |
+| **10** | [**Autonomous Obstacle Avoidance Robot**](_projects/obstacle-avoidance-robot/index.md) | Autonomous Mobile Robots | Arduino, Ultrasonic HC-SR04, SG90 Servo Radar, L298N | [youniquestar/obstacle-avoidance-robot](https://github.com/youniquestar/obstacle-avoidance-robot) |
 
 ---
 
@@ -60,7 +61,8 @@ Portfolio/
 │   ├── smart-irrigation/
 │   ├── rfid-barrier-gate/
 │   ├── smart-walking-stick/
-│   └── school-faq-chatbot/
+│   ├── school-faq-chatbot/
+│   └── obstacle-avoidance-robot/
 ├── assets/
 │   ├── images/profile-image/ # Headshot
 │   └── js/                   # Interactive scripts (mobile menu, etc.)
